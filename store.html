@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="image/shop1.png" type="image/x-icon">
+    <title>The Generics | Store</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" async></script>
+    <!--    <link href="font-awesome-4.7.0\css\font-awesome.min.css" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+
+    <style>
+        #loading {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: white url('image/load3.gif') no-repeat center;
+            z-index: 999999;
+        }
+
+        #iconm:hover {
+            color: orangered;
+        }
+    </style>
+
+</head>
+
+<body class="sb-nav-fixed" onload="pageload()">
+    <!-- loading page  start -->
+    <div id="loading">
+
+    </div>
+
+    <!-- loading end -->
+
+
+
+
+    <!-- navbar start -->
+    <header class="header sb-topnav">
+        <div class="brand">
+            <button class="btn btn-link ml-2" id="sidebarToggle" href="#">
+
+
+                <i class="fas fa-bars" id="ic"></i>
+                <span class="brand-name">amekart</span></button>
+
+        </div>
+        <div class="header-links">
+            <a class="a1" href="index.html"><i class="material-icons" id="iconm"
+                    style="color: white; font-size: 3rem;">home</i></a>
+            <!-- <a class="a2" href="store.html">Shop</a> -->
+        </div>
+    </header>
+    <!-- navbar end -->
+
+    <!-- go to upside -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span>
+            <i class="fa fa-arrow-up"></i>
+        </span></button>
+
+
+    <!-- slide page start -->
+    <section>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav" style="width:18rem;">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <a>
+                                <div class="sb-nav-link-icon"><i class="fa fa-shopping-cart mt-4 mb-3"></i></div>
+                                <!-- <input class="form-control mx-auto " style="width: 150px; margin-bottom: 6px;"
+                                    type="text"> -->
+                                <!-- <span>Shopping Categories</span> -->
+                                <a href="#cart"> <button class="btn btn-primary">YOUR CART</button></a>
+                            </a>
+                            <div class="list-group mx-auto" style="width:13rem;margin-top: 5px;">
+                                <a href="#tshirts" class="list-group-item list-group-item-action">Tshirts</a>
+
+                                <a href="#bags" class="list-group-item list-group-item-action">Backpacks</a>
+
+                                <a href="#shorts" class="list-group-item list-group-item-action">Shorts</a>
+
+                                <a href="#trackpant" class="list-group-item list-group-item-action">Track Pants</a>
+
+                                <a href="#bats" class="list-group-item list-group-item-action ">Cricket Bats</a>
+
+                                <a href="#sports_shoes" class="list-group-item list-group-item-action ">Sports Shoes</a>
+
+                                <a href="#cap" class="list-group-item list-group-item-action">Caps</a>
+
+
+                                <a href="#Flip_flop" class="list-group-item list-group-item-action ">Flip Flops</a>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!-- slide page end -->
+
+
+
+    <section class="container content-section" id="tshirts">
+        <h2 class="section-header">T-shirts</h2>
+        <div class="mx-auto underline" style="border-bottom:solid rgb(245, 76, 14); margin-bottom: 2rem;"></div>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Slim White Shirt</span>
+                <img class="shop-item-image" src="img/tsh1.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slim Red Shirt</span>
+                <img class="shop-item-image" src="img/tsh2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$25.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slim Black Shirt</span>
+                <img class="shop-item-image" src="img/tsh3.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slim Colorful Shirt</span>
+                <img class="shop-item-image" src="img/tsh4.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$29.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slim Green Shirt</span>
+                <img class="shop-item-image" src="img/tsh5.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$15.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slim Gray Shirt</span>
+                <img class="shop-item-image" src="img/tsh6.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slim Blue Shirt</span>
+                <img class="shop-item-image" src="img/tsh7.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$18.00</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slim Blue and Black Shirt</span>
+                <img class="shop-item-image" src="img/tsh8.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$16.65</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slim Dark Green Shirt</span>
+                <img class="shop-item-image" src="img/tsh10.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$25.65</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slim Yellow Shirt</span>
+                <img class="shop-item-image" src="img/tsh11.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$10.65</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slim Grey Shirt</span>
+                <img class="shop-item-image" src="img/tsh12.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$23.65</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Slim Gray Shirt</span>
+                <img class="shop-item-image" src="img/tsh6.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$25.65</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container content-section" id="bags">
+        <h2 class="section-header">BAGS</h2>
+        <div class="mx-auto underline" style="border-bottom:solid rgb(245, 76, 14); margin-bottom: 2rem;"></div>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Lifestyle Backpack</span>
+                <img class="shop-item-image" src="img/bag1.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">ftblNXT Backpack</span>
+                <img class="shop-item-image" src="img/bag2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">X Backpack</span>
+                <img class="shop-item-image" src="img/bag4.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Sole Backpack</span>
+                <img class="shop-item-image" src="img/bag3.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Sole smart Backpack</span>
+                <img class="shop-item-image" src="img/bag6.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Deck Backpack</span>
+                <img class="shop-item-image" src="img/bag5.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Classics Originals Backpack</span>
+                <img class="shop-item-image" src="img/bag7.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">PUMA Tric Backpack</span>
+                <img class="shop-item-image" src="img/bag8.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Beta Backpack</span>
+                <img class="shop-item-image" src="img/bag9.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">X Pro Backpack</span>
+                <img class="shop-item-image" src="img/bag10.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$29.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">X Pro Backpack-2</span>
+                <img class="shop-item-image" src="img/bag11.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$29.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Olympique LIGA Backpack</span>
+                <img class="shop-item-image" src="img/bag12.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$24.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="container content-section" id="shorts">
+        <h2 class="section-header">Shorts Pants</h2>
+        <div class="mx-auto underline" style="border-bottom:solid rgb(245, 76, 14); margin-bottom: 2rem;"></div>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Ignite 7" Men's Running Shorts</span>
+                <img class="shop-item-image" src="img/st1.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$5.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">REBEL Bold Shorts</span>
+                <img class="shop-item-image" src="img/st2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Summer Shorts</span>
+                <img class="shop-item-image" src="img/st3.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">8.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">PUMA x one8 Men's Shorts</span>
+                <img class="shop-item-image" src="img/st4.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$3.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">PUMA x one8 Men's Shorts</span>
+                <img class="shop-item-image" src="img/st5.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$8.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">one8 Men's Track Pants</span>
+                <img class="shop-item-image" src="img/st6.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">SAINT MARTINS Men's Shorts</span>
+                <img class="shop-item-image" src="img/st7.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$8.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">PUMA x one8 Kids Shorts</span>
+                <img class="shop-item-image" src="img/st8.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$7.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">PUMA x AOP Men's Shorts</span>
+                <img class="shop-item-image" src="img/st9.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$10.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">GNITE Split Men's Shorts</span>
+                <img class="shop-item-image" src="img/st10.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$4.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Graphic Shorts TR</span>
+                <img class="shop-item-image" src="img/st11.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$16.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">one8 Men's Knitted Shorts</span>
+                <img class="shop-item-image" src="img/st12.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$8.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container content-section" id="trackpant">
+        <h2 class="section-header">Track Pants</h2>
+        <div class="mx-auto underline" style="border-bottom:solid rgb(245, 76, 14); margin-bottom: 2rem;"></div>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">XTG Woven Men's Track Pants</span>
+                <img class="shop-item-image" src="img/p1.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">one8 Men's Track Pants</span>
+                <img class="shop-item-image" src="img/p2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Archive Men's Track Pants</span>
+                <img class="shop-item-image" src="img/p3.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">8.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Woven Men's Track Pants</span>
+                <img class="shop-item-image" src="img/p4.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$15.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">ESS+ Men’s Track pants</span>
+                <img class="shop-item-image" src="img/p5.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$18.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">one8 Men's Track Pants</span>
+                <img class="shop-item-image" src="img/p6.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Puma Evospeed Chromiums</span>
+                <img class="shop-item-image" src="img/p7.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$39.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">one8 Men's Track Pants</span>
+                <img class="shop-item-image" src="img/p8.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$7.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">one8 Men's Track Pants</span>
+                <img class="shop-item-image" src="img/p9.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Knitted SL 2 Men's Track pants</span>
+                <img class="shop-item-image" src="img/p10.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$4.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">ESS+ Men’s Track pants</span>
+                <img class="shop-item-image" src="img/p11.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$16.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Archive Men's Track Pants</span>
+                <img class="shop-item-image" src="img/p12.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$8.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section" id="bats">
+        <h2 class="section-header">BATS</h2>
+        <div class="mx-auto underline" style="border-bottom:solid rgb(245, 76, 14); margin-bottom: 2rem;"></div>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">evoPOWER 3.17 SNR Bat</span>
+                <img class="shop-item-image" src="img/b1.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">evoSPEED 7.17 Bat</span>
+                <img class="shop-item-image" src="img/b2.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">evoSPEED 8.17 Bat</span>
+                <img class="shop-item-image" src="img/b3.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$36.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">evoSPEED KW 2 SNR Bat</span>
+                <img class="shop-item-image" src="img/b4.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$25.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">evoSPEED 6 Bat</span>
+                <img class="shop-item-image" src="img/b5.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$18.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Puma Karbon 4000 Bat</span>
+                <img class="shop-item-image" src="img/b6.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$29.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Puma Evospeed Chromium 3500 Bat</span>
+                <img class="shop-item-image" src="img/b7.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$39.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">evoSPEED 6 Bat</span>
+                <img class="shop-item-image" src="img/b8.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$49.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Puma Pulse 3000</span>
+                <img class="shop-item-image" src="img/b9.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$69.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Puma 89675301 Wood Bat</span>
+                <img class="shop-item-image" src="img/b10.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Puma Evospeed GTR '14 Bat</span>
+                <img class="shop-item-image" src="img/b11.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Puma EvoSPEED Snr Bat</span>
+                <img class="shop-item-image" src="img/b12.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container content-section" id="sports_shoes">
+        <h2 class="section-header">Sport Shoes</h2>
+        <div class="mx-auto underline" style="border-bottom:solid rgb(245, 76, 14); margin-bottom: 2rem;"></div>
+
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Seawalk Men’s Shoes</span>
+                <img class="shop-item-image" src="img/s1.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Rise XT Men's Shoes</span>
+                <img class="shop-item-image" src="img/s2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Tenaz Kids's Shoes</span>
+                <img class="shop-item-image" src="img/s3.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$36.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Ferrari Drift Cat Men's Shoes</span>
+                <img class="shop-item-image" src="img/s4.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$25.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Explode XT 3 Men's Shoes</span>
+                <img class="shop-item-image" src="img/s5.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$18.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">BMW M Motorsport Shoes</span>
+                <img class="shop-item-image" src="img/s6.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$29.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Ferrari Drift Ultra II Shoes</span>
+                <img class="shop-item-image" src="img/s7.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$39.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">PUMA Spike Men's Shoes</span>
+                <img class="shop-item-image" src="img/s8.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$49.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Beta Backpack</span>
+                <img class="shop-item-image" src="img/s9.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$69.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">BMW MMS R-cat Shoes</span>
+                <img class="shop-item-image" src="img/s10.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">PUMA Women's Shoes</span>
+                <img class="shop-item-image" src="img/s11.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Gamble IDP Men’s Sneakers</span>
+                <img class="shop-item-image" src="img/s12.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container content-section" id="cap">
+        <h2 class="section-header">Caps</h2>
+        <div class="mx-auto underline" style="border-bottom:solid rgb(245, 76, 14); margin-bottom: 2rem;"></div>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Ferrari Cap</span>
+                <img class="shop-item-image" src="img/c1.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">LS ColourBlock Cap</span>
+                <img class="shop-item-image" src="img/c2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Panel Cap</span>
+                <img class="shop-item-image" src="img/c3.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Training Stretchfit Cap</span>
+                <img class="shop-item-image" src="img/c4.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$15.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Military Cap</span>
+                <img class="shop-item-image" src="img/c5.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$18.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Pro Cap</span>
+                <img class="shop-item-image" src="img/c6.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Essential Cap</span>
+                <img class="shop-item-image" src="img/c7.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Energy Cap</span>
+                <img class="shop-item-image" src="img/c8.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Foldable Trail Cap</span>
+                <img class="shop-item-image" src="img/c9.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$29.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Premium Archive Cap</span>
+                <img class="shop-item-image" src="img/c10.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">BMW Replica Team Cap</span>
+                <img class="shop-item-image" src="img/c11.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Ferrari Force Cap</span>
+                <img class="shop-item-image" src="img/c12.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section" id="Flip_flop">
+        <h2 class="section-header">Flip flops</h2>
+        <div class="mx-auto underline" style="border-bottom:solid rgb(245, 76, 14); margin-bottom: 2rem;"></div>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Ferric IDP Flip Flops</span>
+                <img class="shop-item-image" src="img/f1.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$5.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">IDP Unisex Flip Flops</span>
+                <img class="shop-item-image" src="img/f2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$7.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Shiatsu IDP Flip Flops</span>
+                <img class="shop-item-image" src="img/f3.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Camoufla Flip Flops</span>
+                <img class="shop-item-image" src="img/f4.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Men's Flip Flops</span>
+                <img class="shop-item-image" src="img/f5.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">DP Men's Flip Flops</span>
+                <img class="shop-item-image" src="img/f6.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$11.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">GU IDP Men's Flip Flops</span>
+                <img class="shop-item-image" src="img/f7.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Monk GU IDP Flip Flops</span>
+                <img class="shop-item-image" src="img/f8.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Ketava DP Men's Flip Flops</span>
+                <img class="shop-item-image" src="img/f9.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Comfrot IDP Men's Flip Flops</span>
+                <img class="shop-item-image" src="img/f10.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$15.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Ketava III Men's Flip Flops</span>
+                <img class="shop-item-image" src="img/f11.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$17.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">IDP Unisex Flip Flops</span>
+                <img class="shop-item-image" src="img/f12.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="container content-section" id="cart">
+        <h2 class="section-header">CART</h2>
+        <div class="mx-auto underline" style="border-bottom:solid black; margin-bottom: 2rem;"></div>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button" style="margin-bottom: 10%;">PURCHASE</button>
+    </section>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTknEXo3C-meVnmLZAcehxFfvLthOeikmTWDnfgptHndLO4g0Wx&usqp=CAU">
+    <link href="css1/styles.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script>
+        var preloader = document.getElementById("loading");
+
+        function pageload() {
+
+            setInterval(function () { preloader.style.display = "none"; }, 2500);
+        }
+    </script>
+</body>
+
+</html>

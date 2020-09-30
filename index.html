@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="image/shop1.png" type="image/x-icon">
+
+    <title>amecart</title>
+
+
+    <style>
+        #loading {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: white url('image/load3.gif') no-repeat center;
+            z-index: 999999;
+        }
+    </style>
+</head>
+
+<body class="sb-nav-fixed" onload="pageload()">
+    <!-- loading page  start -->
+    <div id="loading">
+
+    </div>
+
+    <!-- loading end -->
+
+
+    <!-- navbar start -->
+    <header class="header sb-topnav">
+        <div class="brand">
+            <button class="btn btn-link ml-2" id="sidebarToggle" href="#"><i class="fas fa-bars" id="ic"></i><span
+                    class="brand-name">amekart</span></button>
+
+        </div>
+        <!-- <div class="header-links">
+            <a class="a1" href="cart.html">Cart</a>
+            <a class="a2" href="store.html">Shop</a>
+        </div> -->
+    </header>
+    <!-- navbar end -->
+
+    <!-- slide page start -->
+    <section>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav" style="width:18rem;">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <a>
+                                <div class="sb-nav-link-icon"><i class="fa fa-shopping-cart mt-4 mb-3"></i></div>
+                                <!-- <input class="form-control mx-auto " style="width: 150px; margin-bottom: 6px;"
+                                    type="text"> -->
+                                <a href="store.html"> <button class="btn btn-primary">SHOP NOW</button></a>
+                                <!-- <span>Shopping Categories</span> -->
+                            </a>
+                            <!-- <div class="list-group mx-auto" style="width:13rem;margin-top: 5px;">
+                                <a href="T-shirts.html" class="list-group-item list-group-item-action">Tshirts</a>
+                                <a href="Track-pants" class="list-group-item list-group-item-action">Track Pants</a>
+                                <a href="Shorts.html" class="list-group-item list-group-item-action">Shorts</a>
+                                <a href="shoes.html" class="list-group-item list-group-item-action ">Sports Shoes</a>
+                                <a href="Flip-flops.html" class="list-group-item list-group-item-action active">Flip
+                                    Flops</a>
+                                <a href="bags.html" class="list-group-item list-group-item-action">Backpacks</a>
+                                <a href="cap.html" class="list-group-item list-group-item-action">Caps</a>
+                                <a href="bat.html" class="list-group-item list-group-item-action ">Cricket Bats</a>
+                            </div> -->
+
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!-- slide page end -->
+
+    <!-- content start -->
+    <section class="logo_">
+        <div class="container">
+            <div class="row mx-auto ">
+                <figure>
+                    <img class="img-fluid mt-5" src="image/cheetah.png" alt="cant loading successfully..">
+                    <figcaption style="float:right; font-size: 20px; padding: 0.2rem; margin: 0.5rem;">
+                        <strong><i>Forever Faster </i><span><img src="image/cheetah1.jpg"
+                                    style="width: 50px;height: 40px;" alt="logo"></span></strong></figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- content end -->
+
+    <!-- New Arriwal start -->
+
+    <div class="container-fluid mt-5 mb-5">
+        <h2><strong>New Arrival</strong></h2>
+        <hr class="mx-auto line" style="width: 200px;" />
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <a href="store.html#bats"><img src="image/b9.jpg" alt="cricket-bat"
+                            style="width:300px; height:400px" class="img-fluid mx-auto "></a>
+                    <div class="carousel-caption">
+                        <!-- <h3>Los Angeles</h3> -->
+                        <!-- <p>LA is always so much fun!</p> -->
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="store.html#bags"><img src="image/bag5.jpg" alt="bagpack" style="width:300px; height:400px"
+                            class="img-fluid mx-auto"></a>
+                    <div class="carousel-caption">
+                        <!-- <h3>Chicago</h3> -->
+                        <!-- <p>Thank you, Chicago!</p> -->
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="store.html#bags"><img src="image/bag3.jpg" alt="bagpack" style="width:300px; height:400px"
+                            class="img-fluid mx-auto"></a>
+                    <div class="carousel-caption">
+                        <!-- <h3>New York</h3> -->
+                        <!-- <p>We love the Big Apple!</p> -->
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="store.html#cap"><img src="image/c9.jpg" alt="Cap" style="width:300px; height:400px"
+                            class="img-fluid mx-auto"></a>
+                    <div class="carousel-caption">
+                        <!-- <h3>New York</h3> -->
+                        <!-- <p>We love the Big Apple!</p> -->
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="store.html#tshirts"><img src="image/tsh3.webp" alt="T-shirt"
+                            style="width:300px; height:400px" class="img-fluid mx-auto"></a>
+                    <div class="carousel-caption">
+                        <!-- <h3>New York</h3> -->
+                        <!-- <p>We love the Big Apple!</p> -->
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- New Arriwal end -->
+
+
+
+    <!-- virat images end -->
+    <section class="mt-5">
+        <div class="container-fluid mt-5 mb-5">
+            <div class="row">
+
+                <h2 class="mx-auto GET">GET STARTED</h2>
+
+            </div>
+            <hr class="mx-auto line" style="width: 200px;" />
+
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <img src="image/virat.jpg" alt="virat image" class="img-fluid"
+                        style="width: 100%; min-height: 200px;">
+                    <div class="centered"><a href="store.html"><button class="gt">SHOP NOW</button></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- virat Image end -->
+    <!-- explore start -->
+    <div class="container">
+        <div class="row">
+
+            <h2 class="mx-auto GET">OUR COLLECTION</h2>
+
+
+        </div>
+        <hr class="mx-auto line" style="width: 200px;" />
+
+        <div class="row " style="height: auto;">
+            <div class="col-lg-4 col-md-4 col-6">
+                <figure>
+                    <a href="#" class="coll">
+                        <a href="store.html#tshirts"><img src="image/e1.png" alt="img1" class="img-fluid"
+                                style="height: 150px;"></a>
+                        <figcaption class="fig">T-Shirt</figcaption>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <figure>
+                    <a href="store.html#shorts" class="coll">
+                        <img src="image/e4.png" alt="img1" class="img-fluid" style="height: 150px;">
+                        <figcaption class="fig">Shorts</figcaption>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <figure>
+                    <a href="store.html#trackpant" class="coll">
+                        <img src="image/e6.png" alt="img1" class="img-fluid" style="height: 150px;">
+                        <figcaption class="fig">Track pant</figcaption>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <figure>
+                    <a href="store.html#Flip_flop" class="coll">
+                        <img src="image/12.png" alt="img1" class="img-fluid" style="height: 150px;">
+                        <figcaption class="fig">Flip Flops</figcaption>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <figure>
+                    <a href="store.html#bags" class="coll">
+                        <img src="image/e8.png" alt="img1" class="img-fluid" style="height: 150px;">
+                        <figcaption class="fig">Bagpacks</figcaption>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <figure>
+                    <a href="store.html#cap" class="coll">
+                        <img src="image/cap.jpg" alt="img1" class="img-fluid" style="height: 150px;">
+                        <figcaption class="fig">Caps</figcaption>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <figure>
+                    <a href="store.html#sports_shoes" class="coll">
+                        <img src="image/shoes.png" alt="img1" class="img-fluid" style="height: 150px;">
+                        <figcaption class="fig">Shoes</figcaption>
+                    </a>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <figure>
+                    <a href="store.html#bats" class="coll">
+                        <img src="image/bat.png" alt="img1" class="img-fluid" style="height: 150px;">
+                        <figcaption class="fig">Bat</figcaption>
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- explore end -->
+    <section>
+        <footer class="footer mt-5">
+            <div class="container mt-5 " style=" width: 250px; ">
+
+                <div class="row icon ">
+                    <div class="col-lg-3 col-md-3 col-3 ">
+                        <a target="_blank " href="# ">
+                            <i class="fab fa-linkedin fa-2x " aria-hidden="true "></i>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-3 ">
+                        <a target="_blank " href="#">
+                            <i class="fab fa-instagram fa-2x " aria-hidden="true "></i>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-3 ">
+                        <a target="_blank " href="#">
+                            <i class="fab fa-github-square fa-2x " aria-hidden="true "></i>
+
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-3 ">
+                        <a target="_blank " href="# ">
+                            <i class="fab fa-twitter-square fa-2x " aria-hidden="true "></i>
+
+                        </a>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-12 pt-3">
+                        <p style="color:black">&copy;All Rights Reserved</p>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </section>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTknEXo3C-meVnmLZAcehxFfvLthOeikmTWDnfgptHndLO4g0Wx&usqp=CAU">
+    <link href="css1/styles.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+        var preloader = document.getElementById("loading");
+
+        function pageload() {
+
+            setInterval(function () { preloader.style.display = "none"; }, 3000);
+        }
+    </script>
+</body>
+
+</html>
